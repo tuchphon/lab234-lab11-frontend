@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/234-lab11
+    ports:
+      - "8084:8080"
+  frontend:
+    image: tuchphon/se234-lab11-client:latest
+    ports:
+      - "8083:80"
+
